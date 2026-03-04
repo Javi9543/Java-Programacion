@@ -1,3 +1,4 @@
-# UD2-Java
+# JAVA
+Git de Javier Muñoz Parra
 
-Aunque pone UD2 Java, aqui estan todos los ejercicios de las relaciones de java
+Aqui voy a ir subiendo todas las relaciones que hagamos de Java
