@@ -43,7 +43,6 @@ public class GestSimAlm {
                     art.setStock(art.getStock() - cantidad);
                 }
                 System.out.println("Cantidad a eliminar de stock aceptada");
-                
                 return "Se a eliminado el stock introducido correctamente";
             }
             return "No se puede eliminar el stock introducido";
