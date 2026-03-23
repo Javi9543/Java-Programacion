@@ -1,8 +1,11 @@
 package Ejercicio1;
 
+import java.util.Scanner;
+
 public class TestMenu {
     public static void main(String[] args) {
         Menu juego = new Menu();
+        Scanner teclado = new Scanner(System.in);
 
         juego.crearOpcion("Iniciar Partida");
         juego.crearOpcion("Cargar Partida");
@@ -10,9 +13,11 @@ public class TestMenu {
 
         juego.muestraMenu();
 
-        juego.capturaOpcion(1);
-        juego.capturaOpcion(2);
-        juego.capturaOpcion(3);
-        juego.capturaOpcion(4);
+        System.out.println("Introduzca una opcion: ");
+        int opc = teclado.nextInt();
+
+        juego.capturaOpcion(opc);
+
+        teclado.close();
     }
 }

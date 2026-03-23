@@ -22,7 +22,6 @@ public class Menu{
 
     public void muestraMenu(){
         System.out.println("====== MENU DE OPCIONES ======");
-        System.out.println(menu.size());
         for (int i = 0; i < menu.size(); i++) { 
             System.out.println((i + 1)+ ". " + menu.get(i));
         }
@@ -38,7 +37,7 @@ public class Menu{
         if (opc >= 0 && opc < menu.size()) {
          System.out.println("Opcion seleccionada: " + menu.get(opc));
         } else {
-            System.out.println(" - La opcion " + opc + ", no existe en el menu - ");
+            System.out.println(" - La opcion " + opcion + ", no existe en el menu - ");
         }
     }
 }
