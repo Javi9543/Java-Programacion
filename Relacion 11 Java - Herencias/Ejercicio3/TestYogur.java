@@ -5,7 +5,7 @@ public class TestYogur {
         Yogur griego = new Yogur();
         YogurDesnatado frutas = new YogurDesnatado();
 
-        System.out.println("Calorias de un yogur normal: " + griego.getCaloria());
-        System.out.println("Las Calorias de un yogur desnatado son de: " + frutas.getCaloria());
+        System.out.println("Calorias de un yogur normal: " + griego );
+        System.out.println("Las Calorias de un yogur desnatado son de: " + frutas);
     }
 }
